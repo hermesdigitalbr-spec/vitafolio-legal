@@ -13,3 +13,6 @@ hr{border:none;border-top:1px solid var(--hair);margin:32px 0}
 .card{border:1px solid var(--hair);border-radius:14px;padding:18px 20px;margin:18px 0;background:#fff}
 .muted{color:var(--ink2);font-size:14px}
 footer{margin-top:56px;color:var(--ink2);font-size:13px;border-top:1px solid var(--hair);padding-top:20px}
+/* RTL (ar): Georgia não tem árabe; o h2 caía numa fonte de sistema mais pesada que o h1 — mesma pilha do h1. Árabe não usa itálico (o oblíquo sintético inclina para o lado errado). */
+html[dir="rtl"] h2{font-family:Georgia,"Times New Roman",serif}
+html[dir="rtl"] em{font-style:normal}
